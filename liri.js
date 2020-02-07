@@ -107,8 +107,6 @@ function SearchBandIntTown(name) {
             }
             writeLog("concert-this", name, log);
         });
-
-    
 }
 
 
@@ -132,22 +130,28 @@ function SearchSpotify(name) {
                     artists += ", ";
                 }
             }
-            console.log("-----------------------------------");
-            console.log("Artist(s): " + artists);
-            console.log("Song: " + data.name);
-            console.log("Preview link: " + data.preview_url);
-            console.log("Album: " + data.album.name);
-
+            var output = "-----------------------------------\n" +
+                "Artist(s): " + artists + "\n" +
+                "Song: " + data.name + "\n" +
+                "Preview link: " + data.preview_url + "\n" +
+                "Album: " + data.album.name + "\n";
+            console.log(output);
+            writeLog("spotify-this-song", name, output);
         })
         .catch(function (err) {
+            var log = "";
             console.log("---------------Error---------------");
             if (err.response) {
                 console.log(err.response.data);
+                log = err.response.data;
             } else if (err.request) {
                 console.log(err.request);
+                log = err.request;
             } else {
                 console.log("Error", err.message);
+                log = "Error " + err.message;
             }
+            writeLog("spotify-this-song", name, log);
         });
 }
 

@@ -86,3 +86,12 @@ Date of Evnet: 07/17/2020
 Name of Venue: Estadi Olímpic Lluís Companys
 Venue Location: Barcelona, Spain
 Date of Evnet: 07/18/2020
+********************************************************
+Fri Feb 07 2020 15:11:29 GMT-0800 (Pacific Standard Time)
+<--Command: spotify-this-song we+are+the+world
+-->Output:
+-----------------------------------
+Artist(s): U.S.A. For Africa
+Song: We Are The World
+Preview link: https://p.scdn.co/mp3-preview/e2f94172ed84912b8be9c1297ab834b37de5fdf8?cid=2eb824eee8154348ad533741aad6f9f7
+Album: We Are The World
