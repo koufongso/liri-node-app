@@ -49,6 +49,7 @@ function SearchBandIntTown(name) {
             console.log(response.data.length);
             for(var i =0 ; i<response.data.length;i++){
                 var venue = response.data[i].venue;
+                // process location string
                 var location ="";
                 if(venue.city!=""){
                     location+=venue.city;
@@ -66,11 +67,18 @@ function SearchBandIntTown(name) {
                     }
                     location+=venue.country;
                 }
+
+                // process date into MM/DD/YYYY format
+                var temp  = response.data[i].datetime.split("T")[0];
+                temp = temp.split("-");
+                var date = temp[1]+"/"+temp[2]+"/"+temp[0];
+
+
                 console.log("-----------------------------------");
                 console.log("-----------------"+i+"-----------------");
                 console.log("Name of Venue: "+ venue.name);
                 console.log("Venue Location: "+ location);
-                console.log("Date of Evnet: "+ response.data[i].datetime);
+                console.log("Date of Evnet: "+ date);
             }
         })
         .catch(function (error) {
