@@ -105,7 +105,7 @@ function SearchBandIntTown(name) {
                 console.log("Error", error.message);
                 log = "Error " + error.message;
             }
-            writeLog("concert-this", name, log);
+            writeLog("concert-this", name, JSON.stringify(log));
         });
 }
 
@@ -118,28 +118,35 @@ function SearchBandIntTown(name) {
 function SearchSpotify(name) {
     var Spotify = require('node-spotify-api');
     var spotify = new Spotify(keys.spotify);
+    var log ="";
     spotify
         .search({ type: 'track', query: name })
         .then(function (response) {
             var data = response.tracks.items[0];
-            // console.log(data);
-            var artists = "";
-            for (var i = 0; i < data.artists.length; i++) {
-                artists += data.artists[i].name;
-                if (i != data.artists.length - 1) {
-                    artists += ", ";
+            if(data!=undefined){
+                var artists = "";
+                for (var i = 0; i < data.artists.length; i++) {
+                    artists += data.artists[i].name;
+                    if (i != data.artists.length - 1) {
+                        artists += ", ";
+                    }
                 }
+                var output = "-----------------------------------\n" +
+                    "Artist(s): " + artists + "\n" +
+                    "Song: " + data.name + "\n" +
+                    "Preview link: " + data.preview_url + "\n" +
+                    "Album: " + data.album.name + "\n";
+                console.log(output);
+                log = output;
+            }else{
+                log="Song not found!";
+                console.log(log);
+                
             }
-            var output = "-----------------------------------\n" +
-                "Artist(s): " + artists + "\n" +
-                "Song: " + data.name + "\n" +
-                "Preview link: " + data.preview_url + "\n" +
-                "Album: " + data.album.name + "\n";
-            console.log(output);
-            writeLog("spotify-this-song", name, output);
+
+            writeLog("spotify-this-song", name, log);
         })
         .catch(function (err) {
-            var log = "";
             console.log("---------------Error---------------");
             if (err.response) {
                 console.log(err.response.data);
@@ -151,7 +158,7 @@ function SearchSpotify(name) {
                 console.log("Error", err.message);
                 log = "Error " + err.message;
             }
-            writeLog("spotify-this-song", name, log);
+            writeLog("spotify-this-song", name, JSON.stringify(log));
         });
 }
 
@@ -160,29 +167,43 @@ function SearchMovie(name) {
     var axios = require("axios");
     var apiKey = "trilogy";
     var query = "http://www.omdbapi.com/?t=" + name + "&y=&plot=short&apikey=" + apiKey;
+    var log=""
     axios.get(query).then(
         function (response) {
+            // console.log(response)
             var data = response.data;
-            console.log("-----------------------------------");
-            console.log("Title: " + data.Title);
-            console.log("Year: " + data.Year);
-            console.log("IMDB Rating: " + data.imdbRating);
-            console.log("Rotten Tomatoes Rating: " + data.Ratings[2].Value);
-            console.log("Country: " + data.Country);
-            console.log("Language: " + data.Language);
-            console.log("Plot: " + data.Plot);
-            console.log("Actors: " + data.Actors);
+            if(data.Response!="False"){
+                var output = "-----------------------------------\n" +
+                "Title: " + data.Title + "\n" +
+                "Year: " + data.Year + "\n" +
+                "IMDB Rating: " + data.imdbRating + "\n" +
+                "Rotten Tomatoes Rating: " + data.Ratings[2].Value + "\n" +
+                "Country: " + data.Country + "\n" +
+                "Language: " + data.Language + "\n" +
+                "Plot: " + data.Plot + "\n" +
+                "Actors: " + data.Actors + "\n";
+                console.log(output);
+                log = output;
+            }else{
+                console.log(data.Error);
+                log  = data.Error;
+            }
+
+            writeLog("moive-this", name, log);
         })
         .catch(function (error) {
             if (error.response) {
                 console.log("---------------Error---------------");
                 console.log(error.response.data);
+                log = error.response.data;
             } else if (error.request) {
                 console.log(error.request);
+                log = error.request;
             } else {
                 console.log("Error", error.message);
+                log = "Error " + error.message;
             }
-            console.log(error.config);
+            writeLog("movie-this", name, JSON.stringify(log));
         });
 }
 
@@ -213,7 +234,7 @@ function toDo() {
 function writeLog(cmd, target, result) {
     var fs = require("fs");
     var time = Date();
-    var output = "********************************************************\n" + time + "\n" + "<--Command: " + cmd + " " + target + "\n" + "-->Output:\n" + result;
+    var output = "********************************************************\n" + time + "\n" + "<--Command: " + cmd + " " + target + "\n" + "-->Output:\n" + result+"\n";
     fs.appendFileSync("log.txt", output, function (err) {
         if (err) {
             return console.log(err);
