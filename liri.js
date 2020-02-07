@@ -8,10 +8,11 @@ var target = input.slice(1); // take the remaining input as target (name)
 console.log(cmd);
 console.log(target);
 target = target.join("+");// process the name
-operate(cmd,target);
+operate(cmd, target);
+
 
 // command cases
-function operate(cmd,target){
+function operate(cmd, target) {
     switch (cmd) {
         case "concert-this":
             if (target.length != 0) {
@@ -53,10 +54,11 @@ function SearchBandIntTown(name) {
     var axios = require("axios");
     var id = "codingbootcamp";
     var query = "https://rest.bandsintown.com/artists/" + name + "/events?app_id=" + id;
+    var log = "";
     axios.get(query)
         .then(function (response) {
-            console.log("-----------------------------------");
-            console.log(response.data.length);
+            // console.log("-----------------------------------");
+            // console.log(response.data.length);
             for (var i = 0; i < response.data.length; i++) {
                 var venue = response.data[i].venue;
                 // process location string
@@ -82,25 +84,31 @@ function SearchBandIntTown(name) {
                 var temp = response.data[i].datetime.split("T")[0];
                 temp = temp.split("-");
                 var date = temp[1] + "/" + temp[2] + "/" + temp[0];
-
-
-                console.log("-----------------------------------");
-                console.log("-----------------" + (i + 1) + "-----------------");
-                console.log("Name of Venue: " + venue.name);
-                console.log("Venue Location: " + location);
-                console.log("Date of Evnet: " + date);
+                var result = "-----------------" + (i + 1) + "-----------------\n" +
+                    "Name of Venue: " + venue.name + "\n" +
+                    "Venue Location: " + location + "\n" +
+                    "Date of Evnet: " + date + "\n";
+                console.log(result);
+                log += result;
             }
+            writeLog("concert-this", name, log);
         })
         .catch(function (error) {
             console.log("---------------Error---------------");
             if (error.response) {
                 console.log(error.response.data);
+                log = error.response.data;
             } else if (error.request) {
                 console.log(error.request);
+                log = error.request;
             } else {
                 console.log("Error", error.message);
+                log = "Error " + error.message;
             }
-        })
+            writeLog("concert-this", name, log);
+        });
+
+    
 }
 
 
@@ -147,19 +155,19 @@ function SearchSpotify(name) {
 function SearchMovie(name) {
     var axios = require("axios");
     var apiKey = "trilogy";
-    var query = "http://www.omdbapi.com/?t="+name+"&y=&plot=short&apikey="+apiKey;
+    var query = "http://www.omdbapi.com/?t=" + name + "&y=&plot=short&apikey=" + apiKey;
     axios.get(query).then(
         function (response) {
             var data = response.data;
             console.log("-----------------------------------");
-            console.log("Title: "+data.Title);
-            console.log("Year: "+ data.Year);
-            console.log("IMDB Rating: "+ data.imdbRating);
-            console.log("Rotten Tomatoes Rating: "+ data.Ratings[2].Value);
-            console.log("Country: "+ data.Country);
-            console.log("Language: "+ data.Language);
-            console.log("Plot: "+data.Plot);
-            console.log("Actors: "+data.Actors);
+            console.log("Title: " + data.Title);
+            console.log("Year: " + data.Year);
+            console.log("IMDB Rating: " + data.imdbRating);
+            console.log("Rotten Tomatoes Rating: " + data.Ratings[2].Value);
+            console.log("Country: " + data.Country);
+            console.log("Language: " + data.Language);
+            console.log("Plot: " + data.Plot);
+            console.log("Actors: " + data.Actors);
         })
         .catch(function (error) {
             if (error.response) {
@@ -177,16 +185,34 @@ function SearchMovie(name) {
 /**
  * A special version of searchSpotify where the song's name will be read from a pre-defined file
  */
-function toDo(){
+function toDo() {
     var fs = require("fs");
-    fs.readFile("random.txt","utf8",function(err,data){
+    fs.readFile("random.txt", "utf8", function (err, data) {
         if (err) {
             return console.log(err);
         }
         inputList = data.split("\r\n")
-        for(var i= 0; i<inputList.length;i++){
+        for (var i = 0; i < inputList.length; i++) {
             var temp = inputList[i].split(",");
-            operate(temp[0],temp[1]);
+            operate(temp[0], temp[1]);
+        }
+    })
+}
+
+
+/**
+ * Logging out the comand and reuslt to a file
+ * @param {String} cmd input command
+ * @param {String} target  input commmand argument
+ * @param {String} result cmd result
+ */
+function writeLog(cmd, target, result) {
+    var fs = require("fs");
+    var time = Date();
+    var output = "********************************************************\n" + time + "\n" + "<--Command: " + cmd + " " + target + "\n" + "-->Output:\n" + result;
+    fs.appendFileSync("log.txt", output, function (err) {
+        if (err) {
+            return console.log(err);
         }
     })
 }
