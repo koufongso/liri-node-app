@@ -37,30 +37,30 @@
     SPOTIFY_SECRET=your-spotify-secret // TODO: replace to your spotify secret
 
     ```
-3. Go to `https://developer.spotify.com/dashboard/login` to create an account. Follow the instruction to obtain a Spotify client id and a client secret. In `.env` file, replace the spotify id/secret with your own Spotify client id and client secret.
+3. Go to https://developer.spotify.com/dashboard/login to create an account. Follow the instruction to obtain a Spotify client id and a client secret. In `.env` file, replace the spotify id/secret with your own Spotify client id and client secret.
 
 4. Now it is ready to go!
 
 
 ### Demo
 * `concert-this`
-    ![concert-this-result](/Demo/images/concert-this-result.jpg)
+    ![concert-this-result](/Demo/images/concert-this-result.JPG)
 
 * `spotify-this-song`
-    ![spotify-this-song-result](/Demo/images/spotify-this-song-result.jpg)
+    ![spotify-this-song-result](/Demo/images/spotify-this-song-result.JPG)
 
     (The result is also updated to the log.txt. You can see the previous reuslt (from `concert-this celine dion`))
 
 * `movie-this`
     * If there's no input after `movie-this`, it will search `Mr. Nobody` by default.
-    ![movie-this-result](/Demo/images/movie-this-result.jpg)
+    ![movie-this-result](/Demo/images/movie-this-result.JPG)
 
 * `do-what-it-says`
     * You need to first define random.txt in the form of `<command>,<target>`. You have to type `,` even if `<target>` is empty.
-    ![toDoList](/Demo/images/toDoList.jpg)
+    ![toDoList](/Demo/images/toDoList.JPG)
 
     * Then type `do-what-it-says`
-    ![do-what-it-says-result](/Demo/images/do-what-it-says-result.jpg)
+    ![do-what-it-says-result](/Demo/images/do-what-it-says-result.JPG)
 
     (Noticed that it is a the search functions are asyc call to the APIs, the order of the result depends on the order of executing the line command and how fast the corresponding API responds. You can see the `random.txt` commands' order and the displayed results' order are different.)
 
