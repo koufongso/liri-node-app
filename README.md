@@ -20,15 +20,14 @@
 
 ### Setup
 1. Create a JavaScript file named `keys.js` and copy the following code into `keys.js`:
+     ```js
+     console.log('this is loaded');
 
-        ```js
-        console.log('this is loaded');
-
-        exports.spotify = {
-            id: process.env.SPOTIFY_ID,
-            secret: process.env.SPOTIFY_SECRET
-        };
-        ```
+     exports.spotify = {
+         id: process.env.SPOTIFY_ID,
+         secret: process.env.SPOTIFY_SECRET
+     };
+     ```
 
 2. Create a file named `.env`, and copy the following code into `.env`:
     ```js
