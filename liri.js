@@ -5,8 +5,8 @@ var keys = require("./keys.js");
 var input = process.argv.splice(2); // take out the first 2 "irrelevent input"
 var cmd = input[0]; // take first input as command
 var target = input.slice(1); // take the remaining input as target (name)
-console.log(cmd);
-console.log(target);
+// console.log(cmd);
+// console.log(target);
 target = target.join("+");// process the name
 operate(cmd, target);
 

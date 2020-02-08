@@ -1,8 +1,15 @@
 {
   "name": "liri-node-app",
   "version": "1.0.0",
-  "description": "",
-  "main": "index.js",
+  "description": "* The app should take the following input: `<command> <target>`\r * There are four commands that are available:\r     * concert-this\r         * It will use target as artist/band name for artist/band event searching using Bands in Town Artist Events API",
+  "main": "keys.js",
+  "dependencies": {
+    "axios": "^0.19.2",
+    "dotenv": "^8.2.0",
+    "fs": "^0.0.1-security",
+    "node-spotify-api": "^1.1.1"
+  },
+  "devDependencies": {},
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
@@ -10,18 +17,10 @@
     "type": "git",
     "url": "git+https://github.com/koufongso/liri-node-app.git"
   },
-  "keywords": [],
   "author": "",
   "license": "ISC",
   "bugs": {
     "url": "https://github.com/koufongso/liri-node-app/issues"
   },
-  "homepage": "https://github.com/koufongso/liri-node-app#readme",
-  "dependencies": {
-    "axios": "^0.19.2",
-    "dotenv": "^8.2.0",
-    "fs": "0.0.1-security",
-    "node-spotify-api": "^1.1.1"
-  },
-  "devDependencies": {}
+  "homepage": "https://github.com/koufongso/liri-node-app#readme"
 }

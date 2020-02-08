@@ -1,0 +1,451 @@
+********************************************************
+Fri Feb 07 2020 16:58:41 GMT-0800 (Pacific Standard Time)
+<--Command: concert-this celine+dion
+-->Output:
+-----------------1-----------------
+Name of Venue: Smoothie King Center
+Venue Location: New Orleans, New Orleans, United States
+Date of Evnet: 02/07/2020
+-----------------2-----------------
+Name of Venue: FedExForum
+Venue Location: Memphis, Memphis, United States
+Date of Evnet: 02/09/2020
+-----------------3-----------------
+Name of Venue: PNC Arena
+Venue Location: Raleigh, Raleigh, United States
+Date of Evnet: 02/11/2020
+-----------------4-----------------
+Name of Venue: Bell Centre
+Venue Location: Montreal, Canada
+Date of Evnet: 02/18/2020
+-----------------5-----------------
+Name of Venue: Bell Centre
+Venue Location: Montreal, Canada
+Date of Evnet: 02/19/2020
+-----------------6-----------------
+Name of Venue: Boardwalk Hall
+Venue Location: Atlantic City, Atlantic City, United States
+Date of Evnet: 02/22/2020
+-----------------7-----------------
+Name of Venue: Royal Farms Arena (formerly Baltimore Arena)
+Venue Location: Baltimore, Baltimore, United States
+Date of Evnet: 02/24/2020
+-----------------8-----------------
+Name of Venue: Wells Fargo Center
+Venue Location: Philadelphia, Philadelphia, United States
+Date of Evnet: 02/26/2020
+-----------------9-----------------
+Name of Venue: Barclays Center
+Venue Location: Brooklyn, Brooklyn, United States
+Date of Evnet: 02/28/2020
+-----------------10-----------------
+Name of Venue: Barclays Center
+Venue Location: Brooklyn, Brooklyn, United States
+Date of Evnet: 02/29/2020
+-----------------11-----------------
+Name of Venue: Nassau Veterans Memorial Coliseum
+Venue Location: Uniondale, Uniondale, United States
+Date of Evnet: 03/03/2020
+-----------------12-----------------
+Name of Venue: Barclays Center
+Venue Location: Brooklyn, Brooklyn, United States
+Date of Evnet: 03/05/2020
+-----------------13-----------------
+Name of Venue: Prudential Center
+Venue Location: Newark, Newark, United States
+Date of Evnet: 03/07/2020
+-----------------14-----------------
+Name of Venue: Prudential Center
+Venue Location: Newark, Newark, United States
+Date of Evnet: 03/08/2020
+-----------------15-----------------
+Name of Venue: Capital One Arena
+Venue Location: Washington City, Washington City, United States
+Date of Evnet: 03/11/2020
+-----------------16-----------------
+Name of Venue: PPG Paints Arena
+Venue Location: Pittsburgh, Pittsburgh, United States
+Date of Evnet: 03/13/2020
+-----------------17-----------------
+Name of Venue: Pepsi Center
+Venue Location: Denver, Denver, United States
+Date of Evnet: 03/24/2020
+-----------------18-----------------
+Name of Venue: Vivint Smart Home Arena
+Venue Location: Salt Lake City, Salt Lake City, United States
+Date of Evnet: 03/26/2020
+-----------------19-----------------
+Name of Venue: Gila River Arena
+Venue Location: Glendale, Glendale, United States
+Date of Evnet: 03/29/2020
+-----------------20-----------------
+Name of Venue: Pechanga Arena San Diego
+Venue Location: San Diego, San Diego, United States
+Date of Evnet: 03/31/2020
+-----------------21-----------------
+Name of Venue: Staples Center
+Venue Location: Los Angeles, Los Angeles, United States
+Date of Evnet: 04/02/2020
+-----------------22-----------------
+Name of Venue: Staples Center
+Venue Location: Los Angeles, Los Angeles, United States
+Date of Evnet: 04/03/2020
+-----------------23-----------------
+Name of Venue: Golden 1 Center
+Venue Location: Sacramento, Sacramento, United States
+Date of Evnet: 04/07/2020
+-----------------24-----------------
+Name of Venue: Oakland Arena
+Venue Location: Oakland, Oakland, United States
+Date of Evnet: 04/09/2020
+-----------------25-----------------
+Name of Venue: Chase Center
+Venue Location: San Francisco, San Francisco, United States
+Date of Evnet: 04/10/2020
+-----------------26-----------------
+Name of Venue: Chase Center
+Venue Location: San Francisco, San Francisco, United States
+Date of Evnet: 04/11/2020
+-----------------27-----------------
+Name of Venue: Moda Center
+Venue Location: Portland, Portland, United States
+Date of Evnet: 04/13/2020
+-----------------28-----------------
+Name of Venue: Tacoma Dome
+Venue Location: Tacoma, Tacoma, United States
+Date of Evnet: 04/15/2020
+-----------------29-----------------
+Name of Venue: Rogers Arena
+Venue Location: Vancouver, Canada
+Date of Evnet: 04/17/2020
+-----------------30-----------------
+Name of Venue: Rogers Arena
+Venue Location: Vancouver, Canada
+Date of Evnet: 04/18/2020
+-----------------31-----------------
+Name of Venue: Rogers Place
+Venue Location: Edmonton, Canada
+Date of Evnet: 04/21/2020
+-----------------32-----------------
+Name of Venue: Rogers Place
+Venue Location: Edmonton, Canada
+Date of Evnet: 04/22/2020
+-----------------33-----------------
+Name of Venue: Sasktel Centre
+Venue Location: Saskatoon, Canada
+Date of Evnet: 04/25/2020
+-----------------34-----------------
+Name of Venue: Bell MTS Place
+Venue Location: Winnipeg, Canada
+Date of Evnet: 04/27/2020
+-----------------35-----------------
+Name of Venue: O2 Arena
+Venue Location: Prague, Czech Republic
+Date of Evnet: 05/21/2020
+-----------------36-----------------
+Name of Venue: Atlas Arena
+Venue Location: Łódź, Poland
+Date of Evnet: 05/23/2020
+-----------------37-----------------
+Name of Venue: Tauron Arena Krakow
+Venue Location: Kraków, Poland
+Date of Evnet: 05/25/2020
+-----------------38-----------------
+Name of Venue: Sportpaleis
+Venue Location: Merksem, Belgium
+Date of Evnet: 05/28/2020
+-----------------39-----------------
+Name of Venue: Sportpaleis
+Venue Location: Merksem, Belgium
+Date of Evnet: 05/30/2020
+-----------------40-----------------
+Name of Venue: Hallenstadion
+Venue Location: Zürich, Switzerland
+Date of Evnet: 06/02/2020
+-----------------41-----------------
+Name of Venue: Hallenstadion
+Venue Location: Zürich, Switzerland
+Date of Evnet: 06/03/2020
+-----------------42-----------------
+Name of Venue: ARENA ZAGREB
+Venue Location: Zagreb, Croatia
+Date of Evnet: 06/05/2020
+-----------------43-----------------
+Name of Venue: Papp Laszlo Arena
+Venue Location: Budapest, Hungary
+Date of Evnet: 06/07/2020
+-----------------44-----------------
+Name of Venue: Ziggo Dome
+Venue Location: Amsterdam Zuidoost, Netherlands
+Date of Evnet: 06/10/2020
+-----------------45-----------------
+Name of Venue: Ziggo Dome
+Venue Location: Amsterdam Zuidoost, Netherlands
+Date of Evnet: 06/12/2020
+-----------------46-----------------
+Name of Venue: Ziggo Dome
+Venue Location: Amsterdam Zuidoost, Netherlands
+Date of Evnet: 06/13/2020
+-----------------47-----------------
+Name of Venue: Wiener Stadthalle - Halle D
+Venue Location: Vienna, Austria
+Date of Evnet: 06/15/2020
+-----------------48-----------------
+Name of Venue: Olympiahalle
+Venue Location: Munich, Germany
+Date of Evnet: 06/17/2020
+-----------------49-----------------
+Name of Venue: SAP Arena
+Venue Location: Mannheim, Germany
+Date of Evnet: 06/19/2020
+-----------------50-----------------
+Name of Venue: Lanxess Arena
+Venue Location: Cologne, Germany
+Date of Evnet: 06/21/2020
+-----------------51-----------------
+Name of Venue: Barclaycard Arena Hamburg
+Venue Location: Hamburg, Germany
+Date of Evnet: 06/22/2020
+-----------------52-----------------
+Name of Venue: PARIS LA DEFENSE ARENA
+Venue Location: Nanterre, France
+Date of Evnet: 06/26/2020
+-----------------53-----------------
+Name of Venue: PARIS LA DEFENSE ARENA
+Venue Location: Nanterre, France
+Date of Evnet: 06/27/2020
+-----------------54-----------------
+Name of Venue: PARIS LA DEFENSE ARENA
+Venue Location: Nanterre, France
+Date of Evnet: 06/30/2020
+-----------------55-----------------
+Name of Venue: PARIS LA DEFENSE ARENA
+Venue Location: Nanterre, France
+Date of Evnet: 07/01/2020
+-----------------56-----------------
+Name of Venue: PARIS LA DEFENSE ARENA
+Venue Location: Nanterre, France
+Date of Evnet: 07/03/2020
+-----------------57-----------------
+Name of Venue: PARIS LA DEFENSE ARENA
+Venue Location: Nanterre, France
+Date of Evnet: 07/04/2020
+-----------------58-----------------
+Name of Venue: Plaine De L'asse
+Venue Location: Noyon, France
+Date of Evnet: 07/20/2020
+-----------------59-----------------
+Name of Venue: Waldbühne Berlin
+Venue Location: Berlin, Germany
+Date of Evnet: 07/22/2020
+-----------------60-----------------
+Name of Venue: Mura di Lucca - Viale Carducci
+Venue Location: Lucca, Italy
+Date of Evnet: 07/25/2020
+-----------------61-----------------
+Name of Venue: National Stadium Bukarest
+Venue Location: Bucharest, Romania
+Date of Evnet: 07/29/2020
+-----------------62-----------------
+Name of Venue: Hartwall Arena
+Venue Location: Helsinki, Finland
+Date of Evnet: 08/24/2020
+-----------------63-----------------
+Name of Venue: Hartwall Arena
+Venue Location: Helsinki, Finland
+Date of Evnet: 08/25/2020
+-----------------64-----------------
+Name of Venue: Telenor Arena
+Venue Location: Oslo, Norway
+Date of Evnet: 08/28/2020
+-----------------65-----------------
+Name of Venue: Telenor Arena
+Venue Location: Oslo, Norway
+Date of Evnet: 08/29/2020
+-----------------66-----------------
+Name of Venue: Royal Arena
+Venue Location: Copenhagen, Denmark
+Date of Evnet: 08/31/2020
+-----------------67-----------------
+Name of Venue: Royal Arena
+Venue Location: Copenhagen, Denmark
+Date of Evnet: 09/01/2020
+-----------------68-----------------
+Name of Venue: Manchester Arena
+Venue Location: Manchester, United Kingdom
+Date of Evnet: 09/04/2020
+-----------------69-----------------
+Name of Venue: Manchester Arena
+Venue Location: Manchester, United Kingdom
+Date of Evnet: 09/05/2020
+-----------------70-----------------
+Name of Venue: Arena Birmingham
+Venue Location: Birmingham, United Kingdom
+Date of Evnet: 09/08/2020
+-----------------71-----------------
+Name of Venue: Arena Birmingham
+Venue Location: Birmingham, United Kingdom
+Date of Evnet: 09/09/2020
+-----------------72-----------------
+Name of Venue: SSE Hydro
+Venue Location: Glasgow, United Kingdom
+Date of Evnet: 09/11/2020
+-----------------73-----------------
+Name of Venue: SSE Hydro
+Venue Location: Glasgow, United Kingdom
+Date of Evnet: 09/12/2020
+-----------------74-----------------
+Name of Venue: 3Arena
+Venue Location: Dublin, Ireland
+Date of Evnet: 09/14/2020
+-----------------75-----------------
+Name of Venue: 3Arena
+Venue Location: Dublin, Ireland
+Date of Evnet: 09/15/2020
+-----------------76-----------------
+Name of Venue: The O2
+Venue Location: London, United Kingdom
+Date of Evnet: 09/17/2020
+-----------------77-----------------
+Name of Venue: The O2
+Venue Location: London, United Kingdom
+Date of Evnet: 09/18/2020
+
+********************************************************
+Fri Feb 07 2020 16:59:48 GMT-0800 (Pacific Standard Time)
+<--Command: spotify-this-song We+are+the+world
+-->Output:
+-----------------------------------
+Artist(s): U.S.A. For Africa
+Song: We Are The World
+Preview link: https://p.scdn.co/mp3-preview/e2f94172ed84912b8be9c1297ab834b37de5fdf8?cid=2eb824eee8154348ad533741aad6f9f7
+Album: We Are The World
+
+********************************************************
+Fri Feb 07 2020 17:04:42 GMT-0800 (Pacific Standard Time)
+<--Command: moive-this Mr. Nobody
+-->Output:
+-----------------------------------
+Title: Mr. Nobody
+Year: 2009
+IMDB Rating: 7.8
+Rotten Tomatoes Rating: 63/100
+Country: Belgium, Germany, Canada, France, USA, UK
+Language: English, Mohawk
+Plot: A boy stands on a station platform as a train is about to leave. Should he go with his mother or stay with his father? Infinite possibilities arise from this decision. As long as he doesn't choose, anything is possible.
+Actors: Jared Leto, Sarah Polley, Diane Kruger, Linh Dan Pham
+
+********************************************************
+Fri Feb 07 2020 17:06:01 GMT-0800 (Pacific Standard Time)
+<--Command: moive-this Titanic
+-->Output:
+-----------------------------------
+Title: Titanic
+Year: 1997
+IMDB Rating: 7.8
+Rotten Tomatoes Rating: 75/100
+Country: USA
+Language: English, Swedish, Italian
+Plot: A seventeen-year-old aristocrat falls in love with a kind but poor artist aboard the luxurious, ill-fated R.M.S. Titanic.
+Actors: Leonardo DiCaprio, Kate Winslet, Billy Zane, Kathy Bates
+
+********************************************************
+Fri Feb 07 2020 17:11:21 GMT-0800 (Pacific Standard Time)
+<--Command: moive-this Titanic
+-->Output:
+-----------------------------------
+Title: Titanic
+Year: 1997
+IMDB Rating: 7.8
+Rotten Tomatoes Rating: 75/100
+Country: USA
+Language: English, Swedish, Italian
+Plot: A seventeen-year-old aristocrat falls in love with a kind but poor artist aboard the luxurious, ill-fated R.M.S. Titanic.
+Actors: Leonardo DiCaprio, Kate Winslet, Billy Zane, Kathy Bates
+
+********************************************************
+Fri Feb 07 2020 17:11:21 GMT-0800 (Pacific Standard Time)
+<--Command: spotify-this-song I Want it That Way
+-->Output:
+-----------------------------------
+Artist(s): Backstreet Boys
+Song: I Want It That Way
+Preview link: https://p.scdn.co/mp3-preview/e72a05dc3f69c891e3390c3ceaa77fad02f6b5f6?cid=2eb824eee8154348ad533741aad6f9f7
+Album: The Hits--Chapter One
+
+********************************************************
+Fri Feb 07 2020 17:13:02 GMT-0800 (Pacific Standard Time)
+<--Command: moive-this Titanic
+-->Output:
+-----------------------------------
+Title: Titanic
+Year: 1997
+IMDB Rating: 7.8
+Rotten Tomatoes Rating: 75/100
+Country: USA
+Language: English, Swedish, Italian
+Plot: A seventeen-year-old aristocrat falls in love with a kind but poor artist aboard the luxurious, ill-fated R.M.S. Titanic.
+Actors: Leonardo DiCaprio, Kate Winslet, Billy Zane, Kathy Bates
+
+********************************************************
+Fri Feb 07 2020 17:13:02 GMT-0800 (Pacific Standard Time)
+<--Command: moive-this Mr. Nobody
+-->Output:
+-----------------------------------
+Title: Mr. Nobody
+Year: 2009
+IMDB Rating: 7.8
+Rotten Tomatoes Rating: 63/100
+Country: Belgium, Germany, Canada, France, USA, UK
+Language: English, Mohawk
+Plot: A boy stands on a station platform as a train is about to leave. Should he go with his mother or stay with his father? Infinite possibilities arise from this decision. As long as he doesn't choose, anything is possible.
+Actors: Jared Leto, Sarah Polley, Diane Kruger, Linh Dan Pham
+
+********************************************************
+Fri Feb 07 2020 17:13:03 GMT-0800 (Pacific Standard Time)
+<--Command: spotify-this-song I Want it That Way
+-->Output:
+-----------------------------------
+Artist(s): Backstreet Boys
+Song: I Want It That Way
+Preview link: https://p.scdn.co/mp3-preview/e72a05dc3f69c891e3390c3ceaa77fad02f6b5f6?cid=2eb824eee8154348ad533741aad6f9f7
+Album: The Hits--Chapter One
+
+********************************************************
+Sat Feb 08 2020 09:46:26 GMT-0800 (Pacific Standard Time)
+<--Command: moive-this Mr. Nobody
+-->Output:
+-----------------------------------
+Title: Mr. Nobody
+Year: 2009
+IMDB Rating: 7.8
+Rotten Tomatoes Rating: 63/100
+Country: Belgium, Germany, Canada, France, USA, UK
+Language: English, Mohawk
+Plot: A boy stands on a station platform as a train is about to leave. Should he go with his mother or stay with his father? Infinite possibilities arise from this decision. As long as he doesn't choose, anything is possible.
+Actors: Jared Leto, Sarah Polley, Diane Kruger, Linh Dan Pham
+
+********************************************************
+Sat Feb 08 2020 09:46:26 GMT-0800 (Pacific Standard Time)
+<--Command: moive-this Titanic
+-->Output:
+-----------------------------------
+Title: Titanic
+Year: 1997
+IMDB Rating: 7.8
+Rotten Tomatoes Rating: 75/100
+Country: USA
+Language: English, Swedish, Italian
+Plot: A seventeen-year-old aristocrat falls in love with a kind but poor artist aboard the luxurious, ill-fated R.M.S. Titanic.
+Actors: Leonardo DiCaprio, Kate Winslet, Billy Zane, Kathy Bates
+
+********************************************************
+Sat Feb 08 2020 09:46:27 GMT-0800 (Pacific Standard Time)
+<--Command: spotify-this-song I Want it That Way
+-->Output:
+-----------------------------------
+Artist(s): Backstreet Boys
+Song: I Want It That Way
+Preview link: https://p.scdn.co/mp3-preview/e72a05dc3f69c891e3390c3ceaa77fad02f6b5f6?cid=2eb824eee8154348ad533741aad6f9f7
+Album: The Hits--Chapter One
+
