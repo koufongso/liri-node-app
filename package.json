@@ -4,7 +4,7 @@
   "description": "* The app should take the following input: `<command> <target>`\r * There are four commands that are available:\r     * concert-this\r         * It will use target as artist/band name for artist/band event searching using Bands in Town Artist Events API",
   "main": "keys.js",
   "dependencies": {
-    "axios": "^0.19.2",
+    "axios": "^0.21.1",
     "dotenv": "^8.2.0",
     "fs": "^0.0.1-security",
     "node-spotify-api": "^1.1.1"
